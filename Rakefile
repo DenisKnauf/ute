@@ -4,11 +4,11 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "Ute"
+    gem.name = "ute"
     gem.summary = %Q{Universal Template Engines Collection}
     gem.description = %Q{Many template engines in one collection with one universal API}
     gem.email = "Denis.Knauf@gmail.com"
-    gem.homepage = "http://github.com/DenisKnauf/Ute"
+    gem.homepage = "https://github.com/DenisKnauf/ute"
     gem.authors = ["Denis Knauf"]
     gem.files = %w[AUTHORS README.md VERSION lib/**/*.rb test/**/*.rb]
     gem.require_paths = %w[lib]
